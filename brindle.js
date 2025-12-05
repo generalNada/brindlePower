@@ -261,6 +261,12 @@ function setupSectionNavigation() {
           if (landingSection) {
             landingSection.classList.remove("hidden");
           }
+
+          // Scroll to top
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
         } else {
           // Hide all hidden sections first
           hiddenSections.forEach((section) => {

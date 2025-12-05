@@ -134,7 +134,7 @@ body {
 .landing-section {
   padding: 4rem 0;
   background-color: transparent;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.8s ease-in, visibility 0.8s ease-in;
   position: relative;
 }
 
@@ -880,7 +880,7 @@ body {
 
 .hidden-section.active {
   display: block;
-  animation: fadeIn 0.6s ease-in;
+  animation: fadeIn 1.2s ease-in;
 }
 
 @keyframes fadeIn {
